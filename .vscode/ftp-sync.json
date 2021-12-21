@@ -1,0 +1,27 @@
+{
+    "remotePath": "./joses94.sg-host.com/public_html/wp-content/themes/hello-theme-child-master/",
+    "host": "joses94.sg-host.com",
+    "username": "bressler@joses94.sg-host.com",
+    "password": "BhMoP1940!",
+    "port": 21,
+    "secure": false,
+    "protocol": "ftp",
+    "uploadOnSave": false,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "agent": null,
+    "allow": [],
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+        "\\.DS_Store"
+    ],
+    "generatedFiles": {
+        "extensionsToInclude": [
+            ""
+        ],
+        "path": ""
+    }
+}
