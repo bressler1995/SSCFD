@@ -10,6 +10,9 @@
  *
  * @return void
  */
+
+include('custom-shortcodes.php');
+
 function hello_elementor_child_enqueue_scripts() {
 	wp_enqueue_style(
 		'hello-elementor-child-style',

@@ -15,3 +15,242 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 /*
     Add your custom styles here
 */
+
+.eccent_document_links {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.eccent_document_links p {
+    display: flex;
+    flex-flow: column wrap;
+    box-sizing: border-box;
+    padding: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 5px;
+    background-color: #EEE;
+}
+
+.eccent_document_links p a {
+    display: block;
+    width: 100%;
+    font-family: "Oswald", Sans-serif;
+    font-size: 15px;
+    line-height: 19px;
+    color: #CC0D14;
+    font-weight: 600;
+    margin-bottom: 7px;
+    text-transform: capitalize;
+}
+
+.eccent_document_links p a:hover, .eccent_document_links p a:active, .eccent_document_links p a:focus {
+    opacity: 0.7;
+}
+
+.eccent_document_links p span {
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    line-height: 18px;
+    color: #666;
+}
+
+.eccent_document_pagination {
+    display: block;
+    width:100%;
+}
+
+.eccent_document_pagination .page-numbers {
+    display: inline-block;
+    padding: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: auto;
+    color: #222;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.eccent_document_pagination .page-numbers:not(.current):hover, .eccent_document_pagination .page-numbers:not(.current):active, .eccent_document_pagination .page-numbers:not(.current):focus {
+    background-color: #EEE;
+}
+
+.eccent_document_pagination .page-numbers.current {
+  background-color: #CC0D14;
+  color: #FFF;
+}
+
+.eccentheader_phone h3 {
+	margin: 0;
+}
+
+.eccent_meetings {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.eccent_meetings_yearblock {
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid #EEE;
+    background-color: #E1E1E1;
+    z-index: 1;
+}
+
+.eccent_meetings_row {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+}
+
+.eccent_meetings_row ul {
+    display: flex;
+    padding:0;
+    margin: 0;
+    width: 100%;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.eccent_meetings_row ul li {
+    display: block;
+    padding:7px;
+    padding: 15px;
+    padding: 15px;
+    margin: 0;
+    box-sizing: border-box;
+    color: #222;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 400;
+}
+
+.eccent_meetings_row.titlerow ul li:nth-of-type(1) {
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.eccent_meetings_row.titlerow ul li:nth-of-type(2) {
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.eccent_meetings_row:not(.titlerow) ul li:nth-of-type(1) {
+    border-right: 1px solid rgba(66, 66, 66, 0.1);
+}
+
+.eccent_meetings_row:not(.titlerow) ul li:nth-of-type(2) {
+    border-right: 1px solid rgba(66, 66, 66, 0.1);
+}
+
+.eccent_meetings_row ul li:nth-of-type(1) {
+    width: 27%;
+}
+
+.eccent_meetings_row ul li:nth-of-type(2) {
+    width: 36.5%;
+}
+
+.eccent_meetings_row ul li:nth-of-type(3) {
+    width: 36.5%;
+}
+
+.eccent_meetings_row.titlerow {
+    background-color: #111;
+}
+
+.eccent_meetings_row.titlerow ul li {
+  color: #FFF !important;
+  font-weight: 600 !important;
+  font-family: "Oswald", Sans-serif;
+  text-transform: uppercase;
+}
+
+.eccent_meetings_row ul li a {
+    color: #CC0D14;
+    text-decoration: underline;
+}
+
+.eccent_meetings_row ul li a:hover, .eccent_meetings_row ul li a:active, .eccent_meetings_row ul li a:focus {
+    color: #CC0D14;
+    opacity: 0.7;
+}
+
+.eccent_meetings_row:not(.titlerow):nth-of-type(odd) {
+    background-color: #EEE;
+}
+
+.eccent_meetings_row:not(.titlerow):nth-of-type(even) {
+    background-color: #FFF;
+}
+
+@media(max-width: 1199px) {
+	.eccentheader_phone .elementor-icon-box-content {
+		display: none;
+	}
+	
+	.eccentheader_phone .elementor-icon-box-icon {
+		margin: 0 !important;
+	}
+}
+
+@media(max-width: 767.9px) {
+    .eccent_document_links p {
+        margin: 0;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .eccent_document_pagination {
+        margin: 0;
+        margin-top: 15px;
+    }
+
+    .eccent_meetings_yearblock {
+        margin: 0;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    
+}
+
+@media(min-width: 768px) and (max-width: 1024.9px) {
+    .eccent_document_links p {
+        margin: 7px;
+        width: calc(50% - 14px);
+    }
+
+    .eccent_document_pagination {
+        margin: 7px;
+        margin-bottom: 0;
+        margin-top: 15px;
+    }
+
+    .eccent_meetings_yearblock {
+        margin: 0;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+}
+
+@media(min-width: 1025px) {
+    .eccent_document_links p {
+        margin: 7px;
+        width: calc(33.3% - 14px);
+    }
+
+    .eccent_document_pagination {
+        margin: 7px;
+        margin-bottom: 0;
+        margin-top: 15px;
+    }
+
+    .eccent_meetings_yearblock {
+        margin: 7px;
+        width: calc(33.3% - 14px);
+    }
+}
