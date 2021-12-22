@@ -91,6 +91,7 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 .eccent_meetings {
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
 }
 
 .eccent_meetings_yearblock {
@@ -160,7 +161,7 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 }
 
 .eccent_meetings_row.titlerow {
-    background-color: #111;
+    background-color: #260103;
 }
 
 .eccent_meetings_row.titlerow ul li {
